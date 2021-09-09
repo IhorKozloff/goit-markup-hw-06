@@ -210,6 +210,7 @@ h1 {
 
 .form-list {
     display: block;  
+    
   }
   
 .backdrop.is-hidden .modal-window {
@@ -242,14 +243,21 @@ h1 {
 }
 .user-contacts-form {
     width: 450px; 
-    margin: 0 auto;
+    margin: 12px auto 0 auto;
 }
 .user-contacts-element {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+.user-coment::placeholder {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.user-contacts-element:not(:first-child) {
     margin-top: 10px;
-    
 }
 .user-label {
     font-size: 12px;
