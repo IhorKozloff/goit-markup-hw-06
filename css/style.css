@@ -320,7 +320,11 @@ h1 {
     border: 2px solid #212121;
     border-radius: 2px;
     background: #fff;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.checkbox-icon:hover {
+    border-color: #2196F3;
+} 
 .checkbox-link {
     color: #2196F3;
        
@@ -332,6 +336,7 @@ h1 {
 
 } 
 
+
 .checkbox:checked + .checkbox-icon {
     border-color: #2196F3;
     background-image: url(.././images/agree-vector.svg);
@@ -341,6 +346,9 @@ h1 {
     background-origin: border-box;
  
 } 
+
+
+
 .checkbox-txt {
     font-size: 14px;
     line-height: 1.7;
